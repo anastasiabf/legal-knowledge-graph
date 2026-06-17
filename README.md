@@ -2,7 +2,29 @@
 
 Production-ready Knowledge Graph platform for Indonesian legal regulations with Graph-Augmented RAG engine.
 
-## Quick Start
+## ⚡ Quick Deployment
+
+### Deploy to Railway (Recommended)
+
+Deploy to production in 10 minutes - no server setup needed! Includes managed Neo4j database.
+
+```bash
+# 1. Push to GitHub
+git push origin main
+
+# 2. Go to https://railway.app
+# 3. Create project from GitHub
+# 4. Set Neo4j credentials + API keys (see guide below)
+# 5. Done! Your API is live
+```
+
+📖 **Detailed guide**: [RAILWAY_QUICKSTART.md](RAILWAY_QUICKSTART.md)
+
+**Other deployment options**: [RAILWAY_DEPLOYMENT_GUIDE.md](RAILWAY_DEPLOYMENT_GUIDE.md) (Full guide with Neo4j Aura setup)
+
+---
+
+## Quick Start (Local Development)
 
 ### Prerequisites
 - Python 3.11+
